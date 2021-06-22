@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-18T16:37:59Z" name="Default suite" finished-at="2021-06-18T16:38:09Z" duration-ms="10269">
+  <suite started-at="2021-06-22T16:43:50Z" name="Default suite" finished-at="2021-06-22T16:44:00Z" duration-ms="9893">
     <groups>
     </groups>
-    <test started-at="2021-06-18T16:37:59Z" name="Default test" finished-at="2021-06-18T16:38:09Z" duration-ms="10269">
+    <test started-at="2021-06-22T16:43:50Z" name="Default test" finished-at="2021-06-22T16:44:00Z" duration-ms="9893">
       <class name="com.graphql.tests.GraphQLQueryTest">
-        <test-method signature="getAllFilmsTest()[pri:0, instance:com.graphql.tests.GraphQLQueryTest@5170bcf4]" started-at="2021-06-18T16:37:59Z" name="getAllFilmsTest" finished-at="2021-06-18T16:38:08Z" duration-ms="8802" status="PASS">
+        <test-method signature="getAllFilmsTest()[pri:0, instance:com.graphql.tests.GraphQLQueryTest@5117dd67]" started-at="2021-06-22T16:43:50Z" name="getAllFilmsTest" finished-at="2021-06-22T16:43:58Z" duration-ms="7368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllFilmsTest -->
-        <test-method signature="getAllUsersTest()[pri:0, instance:com.graphql.tests.GraphQLQueryTest@5170bcf4]" started-at="2021-06-18T16:38:08Z" name="getAllUsersTest" finished-at="2021-06-18T16:38:09Z" duration-ms="1397" status="PASS">
+        <test-method signature="getAllUsersTest()[pri:0, instance:com.graphql.tests.GraphQLQueryTest@5117dd67]" started-at="2021-06-22T16:43:58Z" name="getAllUsersTest" finished-at="2021-06-22T16:43:59Z" duration-ms="1322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUsersTest -->
+        <test-method signature="getAllUsersTestWithDataTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.graphql.tests.GraphQLQueryTest@5117dd67]" started-at="2021-06-22T16:43:59Z" name="getAllUsersTestWithDataTest" data-provider="getQueryData" finished-at="2021-06-22T16:44:00Z" duration-ms="1101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akshayapsangi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Flutter development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersTestWithDataTest -->
       </class> <!-- com.graphql.tests.GraphQLQueryTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
