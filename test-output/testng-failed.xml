@@ -5,7 +5,7 @@
     <classes>
       <class name="com.graphql.tests.GraphQLQueryTest">
         <methods>
-          <include name="getAllUsersTestWithDataTest" invocation-numbers="0 1"/>
+          <include name="getAllUsersTestWithDataTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.graphql.tests.GraphQLQueryTest -->
     </classes>
